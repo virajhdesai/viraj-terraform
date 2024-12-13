@@ -1,0 +1,233 @@
+2024-12-13T14:37:24.846-0500 [INFO]  Terraform version: 1.9.5
+2024-12-13T14:37:24.848-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.58.0
+2024-12-13T14:37:24.848-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.20.0
+2024-12-13T14:37:24.848-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2024-12-13T14:37:24.848-0500 [DEBUG] using github.com/zclconf/go-cty v1.14.4
+2024-12-13T14:37:24.848-0500 [INFO]  Go runtime version: go1.22.5
+2024-12-13T14:37:24.848-0500 [INFO]  CLI args: []string{"C:\\windows\\system32\\terraform.exe", "init"}
+2024-12-13T14:37:24.853-0500 [DEBUG] Attempting to open CLI config file: C:\Users\videsa\AppData\Roaming\terraform.rc
+2024-12-13T14:37:24.854-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2024-12-13T14:37:24.857-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2024-12-13T14:37:24.857-0500 [DEBUG] ignoring non-existing provider search directory C:\Users\videsa\AppData\Roaming\terraform.d\plugins
+2024-12-13T14:37:24.860-0500 [DEBUG] ignoring non-existing provider search directory C:\Users\videsa\AppData\Roaming\HashiCorp\Terraform\plugins
+2024-12-13T14:37:24.860-0500 [INFO]  CLI command args: []string{"init"}
+2024-12-13T14:37:25.028-0500 [DEBUG] checking for provisioner in "."
+2024-12-13T14:37:25.031-0500 [DEBUG] checking for provisioner in "C:\\windows\\system32"
+2024-12-13T14:37:25.037-0500 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2024-12-13T14:37:25.409-0500 [DEBUG] GET https://registry.terraform.io/v1/providers/akamai/akamai/versions
+2024-12-13T14:37:52.905-0500 [INFO]  Terraform version: 1.9.5
+2024-12-13T14:37:52.907-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.58.0
+2024-12-13T14:37:52.907-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.20.0
+2024-12-13T14:37:52.907-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2024-12-13T14:37:52.907-0500 [DEBUG] using github.com/zclconf/go-cty v1.14.4
+2024-12-13T14:37:52.907-0500 [INFO]  Go runtime version: go1.22.5
+2024-12-13T14:37:52.907-0500 [INFO]  CLI args: []string{"C:\\windows\\system32\\terraform.exe", "plan", "-out", "plan"}
+2024-12-13T14:37:52.911-0500 [DEBUG] Attempting to open CLI config file: C:\Users\videsa\AppData\Roaming\terraform.rc
+2024-12-13T14:37:52.913-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2024-12-13T14:37:52.916-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2024-12-13T14:37:52.916-0500 [DEBUG] ignoring non-existing provider search directory C:\Users\videsa\AppData\Roaming\terraform.d\plugins
+2024-12-13T14:37:52.918-0500 [DEBUG] ignoring non-existing provider search directory C:\Users\videsa\AppData\Roaming\HashiCorp\Terraform\plugins
+2024-12-13T14:37:52.918-0500 [INFO]  CLI command args: []string{"plan", "-out", "plan"}
+2024-12-13T14:37:53.085-0500 [DEBUG] checking for provisioner in "."
+2024-12-13T14:37:53.088-0500 [DEBUG] checking for provisioner in "C:\\windows\\system32"
+2024-12-13T14:37:53.092-0500 [INFO]  backend/local: starting Plan operation
+2024-12-13T14:37:56.343-0500 [DEBUG] backend/local: will prompt for input of unset required variables [akamai_host akamai_access_token akamai_client_token akamai_account_key akamai_client_secret]
+2024-12-13T14:37:56.343-0500 [DEBUG] command: asking for input: "var.akamai_access_token"
+2024-12-13T14:40:56.841-0500 [INFO]  Terraform version: 1.9.5
+2024-12-13T14:40:56.843-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.58.0
+2024-12-13T14:40:56.843-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.20.0
+2024-12-13T14:40:56.843-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2024-12-13T14:40:56.843-0500 [DEBUG] using github.com/zclconf/go-cty v1.14.4
+2024-12-13T14:40:56.843-0500 [INFO]  Go runtime version: go1.22.5
+2024-12-13T14:40:56.843-0500 [INFO]  CLI args: []string{"C:\\windows\\system32\\terraform.exe", "plan", "-out", "plan"}
+2024-12-13T14:40:56.847-0500 [DEBUG] Attempting to open CLI config file: C:\Users\videsa\AppData\Roaming\terraform.rc
+2024-12-13T14:40:56.848-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2024-12-13T14:40:56.851-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2024-12-13T14:40:56.851-0500 [DEBUG] ignoring non-existing provider search directory C:\Users\videsa\AppData\Roaming\terraform.d\plugins
+2024-12-13T14:40:56.853-0500 [DEBUG] ignoring non-existing provider search directory C:\Users\videsa\AppData\Roaming\HashiCorp\Terraform\plugins
+2024-12-13T14:40:56.853-0500 [INFO]  CLI command args: []string{"plan", "-out", "plan"}
+2024-12-13T14:40:57.018-0500 [DEBUG] checking for provisioner in "."
+2024-12-13T14:40:57.021-0500 [DEBUG] checking for provisioner in "C:\\windows\\system32"
+2024-12-13T14:40:57.025-0500 [INFO]  backend/local: starting Plan operation
+2024-12-13T14:41:00.317-0500 [DEBUG] created provider logger: level=debug
+2024-12-13T14:41:00.317-0500 [INFO]  provider: configuring client automatic mTLS
+2024-12-13T14:41:00.414-0500 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe args=[".terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe"]
+2024-12-13T14:41:00.427-0500 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe pid=22636
+2024-12-13T14:41:00.428-0500 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe
+2024-12-13T14:41:00.550-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:00 [DEBUG] using activation timeout value of 30m0s: EXTRA_VALUE_AT_END=readTimeoutFromEnvOrDefault
+2024-12-13T14:41:00.562-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:00 [DEBUG] using activation timeout value of 30m0s: EXTRA_VALUE_AT_END=readTimeoutFromEnvOrDefault
+2024-12-13T14:41:00.562-0500 [INFO]  provider.terraform-provider-akamai_v6.6.0.exe: configuring server automatic mTLS: timestamp=2024-12-13T14:41:00.552-0500
+2024-12-13T14:41:00.654-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2024-12-13T14:41:00.654-0500
+2024-12-13T14:41:00.654-0500 [DEBUG] provider: using plugin: version=6
+2024-12-13T14:41:01.037-0500 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2024-12-13T14:41:01.051-0500 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe id=22636
+2024-12-13T14:41:01.051-0500 [DEBUG] provider: plugin exited
+2024-12-13T14:41:01.051-0500 [DEBUG] Building and walking validate graph
+2024-12-13T14:41:01.052-0500 [DEBUG] ProviderTransformer: "data.akamai_group.grp_241797" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:41:01.052-0500 [DEBUG] ProviderTransformer: "akamai_property.videsa1" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:41:01.052-0500 [DEBUG] ProviderTransformer: "akamai_cp_code.terraform-test" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:41:01.052-0500 [DEBUG] ProviderTransformer: "akamai_edge_hostname.terraform-test-ehn" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:41:01.052-0500 [DEBUG] ReferenceTransformer: "data.akamai_group.grp_241797" references: []
+2024-12-13T14:41:01.052-0500 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/akamai/akamai\"]" references: [var.config_section var.edgerc_path]
+2024-12-13T14:41:01.052-0500 [DEBUG] ReferenceTransformer: "akamai_property.videsa1" references: [data.akamai_group.grp_241797 data.akamai_group.grp_241797]
+2024-12-13T14:41:01.052-0500 [DEBUG] ReferenceTransformer: "akamai_cp_code.terraform-test" references: [data.akamai_group.grp_241797 data.akamai_group.grp_241797]
+2024-12-13T14:41:01.052-0500 [DEBUG] ReferenceTransformer: "akamai_edge_hostname.terraform-test-ehn" references: [data.akamai_group.grp_241797 data.akamai_group.grp_241797]
+2024-12-13T14:41:01.052-0500 [DEBUG] ReferenceTransformer: "output.videsa (expand)" references: [data.akamai_group.grp_241797]
+2024-12-13T14:41:01.052-0500 [DEBUG] ReferenceTransformer: "var.edgerc_path" references: []
+2024-12-13T14:41:01.052-0500 [DEBUG] ReferenceTransformer: "var.config_section" references: []
+2024-12-13T14:41:01.052-0500 [DEBUG] ReferenceTransformer: "local.notes (expand)" references: [data.akamai_group.grp_241797]
+2024-12-13T14:41:01.052-0500 [DEBUG] Starting graph walk: walkValidate
+2024-12-13T14:41:01.052-0500 [DEBUG] created provider logger: level=debug
+2024-12-13T14:41:01.052-0500 [INFO]  provider: configuring client automatic mTLS
+2024-12-13T14:41:01.088-0500 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe args=[".terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe"]
+2024-12-13T14:41:01.101-0500 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe pid=33068
+2024-12-13T14:41:01.101-0500 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe
+2024-12-13T14:41:01.216-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:01 [DEBUG] using activation timeout value of 30m0s: EXTRA_VALUE_AT_END=readTimeoutFromEnvOrDefault
+2024-12-13T14:41:01.216-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:01 [DEBUG] using activation timeout value of 30m0s: EXTRA_VALUE_AT_END=readTimeoutFromEnvOrDefault
+2024-12-13T14:41:01.217-0500 [INFO]  provider.terraform-provider-akamai_v6.6.0.exe: configuring server automatic mTLS: timestamp=2024-12-13T14:41:01.217-0500
+2024-12-13T14:41:01.321-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2024-12-13T14:41:01.321-0500
+2024-12-13T14:41:01.321-0500 [DEBUG] provider: using plugin: version=6
+2024-12-13T14:41:01.402-0500 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2024-12-13T14:41:01.413-0500 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe id=33068
+2024-12-13T14:41:01.413-0500 [DEBUG] provider: plugin exited
+2024-12-13T14:41:01.414-0500 [INFO]  backend/local: plan calling Plan
+2024-12-13T14:41:01.414-0500 [DEBUG] Building and walking plan graph for NormalMode
+2024-12-13T14:41:01.414-0500 [DEBUG] ProviderTransformer: "akamai_property.videsa1 (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:41:01.415-0500 [DEBUG] ProviderTransformer: "akamai_cp_code.terraform-test (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:41:01.415-0500 [DEBUG] ProviderTransformer: "akamai_edge_hostname.terraform-test-ehn (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:41:01.415-0500 [DEBUG] ProviderTransformer: "data.akamai_group.grp_241797 (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:41:01.415-0500 [DEBUG] ReferenceTransformer: "local.notes (expand)" references: [data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:41:01.415-0500 [DEBUG] ReferenceTransformer: "output.videsa (expand)" references: [data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:41:01.415-0500 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/akamai/akamai\"]" references: [var.config_section var.edgerc_path]
+2024-12-13T14:41:01.415-0500 [DEBUG] ReferenceTransformer: "akamai_property.videsa1 (expand)" references: [data.akamai_group.grp_241797 (expand) data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:41:01.415-0500 [DEBUG] ReferenceTransformer: "akamai_cp_code.terraform-test (expand)" references: [data.akamai_group.grp_241797 (expand) data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:41:01.415-0500 [DEBUG] ReferenceTransformer: "var.edgerc_path" references: []
+2024-12-13T14:41:01.415-0500 [DEBUG] ReferenceTransformer: "akamai_edge_hostname.terraform-test-ehn (expand)" references: [data.akamai_group.grp_241797 (expand) data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:41:01.415-0500 [DEBUG] ReferenceTransformer: "data.akamai_group.grp_241797 (expand)" references: []
+2024-12-13T14:41:01.415-0500 [DEBUG] ReferenceTransformer: "var.config_section" references: []
+2024-12-13T14:41:01.415-0500 [DEBUG] Starting graph walk: walkPlan
+2024-12-13T14:41:01.416-0500 [DEBUG] created provider logger: level=debug
+2024-12-13T14:41:01.416-0500 [INFO]  provider: configuring client automatic mTLS
+2024-12-13T14:41:01.451-0500 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe args=[".terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe"]
+2024-12-13T14:41:01.465-0500 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe pid=22544
+2024-12-13T14:41:01.465-0500 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe
+2024-12-13T14:41:01.581-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:01 [DEBUG] using activation timeout value of 30m0s: EXTRA_VALUE_AT_END=readTimeoutFromEnvOrDefault
+2024-12-13T14:41:01.581-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:01 [DEBUG] using activation timeout value of 30m0s: EXTRA_VALUE_AT_END=readTimeoutFromEnvOrDefault
+2024-12-13T14:41:01.582-0500 [INFO]  provider.terraform-provider-akamai_v6.6.0.exe: configuring server automatic mTLS: timestamp=2024-12-13T14:41:01.582-0500
+2024-12-13T14:41:01.685-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: plugin address: network=tcp address=127.0.0.1:10000 timestamp=2024-12-13T14:41:01.685-0500
+2024-12-13T14:41:01.685-0500 [DEBUG] provider: using plugin: version=6
+2024-12-13T14:41:01.768-0500 [DEBUG] ReferenceTransformer: "data.akamai_group.grp_241797" references: []
+2024-12-13T14:41:01.771-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:01 [DEBUG] [Akamai Property Group] Start Searching for property group records videsa : OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=dataPropertyGroupRead
+2024-12-13T14:41:01.771-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:01 [DEBUG] GetGroups: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=dataPropertyGroupRead
+2024-12-13T14:41:01.771-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:01 [DEBUG] GET https://akab-myd6o626s6luppsk-dymzggphhms3xd2v.luna.akamaiapis.net/papi/v1/groups?accountSwitchKey=1-6JHGX%3A1-8BYUX: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:02.620-0500 [DEBUG] ReferenceTransformer: "akamai_edge_hostname.terraform-test-ehn" references: []
+2024-12-13T14:41:02.621-0500 [DEBUG] ReferenceTransformer: "akamai_property.videsa1" references: []
+2024-12-13T14:41:02.621-0500 [DEBUG] ReferenceTransformer: "akamai_cp_code.terraform-test" references: []
+2024-12-13T14:41:02.623-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] Read CP Code: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourceCPCodeRead
+2024-12-13T14:41:02.623-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] GetCPCode: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:02.623-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] GET https://akab-myd6o626s6luppsk-dymzggphhms3xd2v.luna.akamaiapis.net/papi/v1/cpcodes/1732597?accountSwitchKey=1-6JHGX%3A1-8BYUX&contractId=ctr_1-1NC95D&groupId=grp_241797: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:02.623-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] Edgehostnames GROUP = grp_241797: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourceSecureEdgeHostNameRead
+2024-12-13T14:41:02.623-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] Edgehostnames CONTRACT = ctr_1-1NC95D: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourceSecureEdgeHostNameRead
+2024-12-13T14:41:02.623-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] GetEdgeHostnames: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:02.623-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] GET https://akab-myd6o626s6luppsk-dymzggphhms3xd2v.luna.akamaiapis.net/papi/v1/edgehostnames?accountSwitchKey=1-6JHGX%3A1-8BYUX&contractId=ctr_1-1NC95D&groupId=grp_241797: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:02.632-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] fetching property: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourcePropertyRead property_id=prp_1121420 contract_id=ctr_1-1NC95D group_id=grp_241797
+2024-12-13T14:41:02.632-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] GetProperty: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:02.632-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:02 [DEBUG] GET https://akab-myd6o626s6luppsk-dymzggphhms3xd2v.luna.akamaiapis.net/papi/v1/properties/prp_1121420?accountSwitchKey=1-6JHGX%3A1-8BYUX&contractId=ctr_1-1NC95D&groupId=grp_241797: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:03.341-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:03 [DEBUG] Read CP Code: {ID:cpc_1732597 Name:terra-test CreatedDate:2024-11-22T20:28:33Z ProductIDs:[prd_Fresca]}: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourceCPCodeRead
+2024-12-13T14:41:03.652-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:03 [DEBUG] property fetched: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourcePropertyRead property_id=prp_1121420 contract_id="" group_id=""
+2024-12-13T14:41:03.652-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:03 [DEBUG] fetching property hostnames: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourcePropertyRead group_id=grp_241797 property_version=1 property_id=prp_1121420 contract_id=ctr_1-1NC95D
+2024-12-13T14:41:03.652-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:03 [DEBUG] GetPropertyVersionHostnames: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:03.652-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:03 [DEBUG] GET https://akab-myd6o626s6luppsk-dymzggphhms3xd2v.luna.akamaiapis.net/papi/v1/properties/prp_1121420/versions/1/hostnames?accountSwitchKey=1-6JHGX%3A1-8BYUX&contractId=ctr_1-1NC95D&groupId=grp_241797&includeCertStatus=true&validateHostnames=false: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:05.475-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:05 [DEBUG] fetched property hostnames: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourcePropertyRead property_id=prp_1121420 contract_id=ctr_1-1NC95D group_id=grp_241797 property_version=1 hostnames=map[]
+2024-12-13T14:41:05.475-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:05 [DEBUG] fetching property rules: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourcePropertyRead validate_mode=full validate_rules=true property_id=prp_1121420 group_id=grp_241797 contract_id=ctr_1-1NC95D property_version=1
+2024-12-13T14:41:05.475-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:05 [DEBUG] GetRuleTree: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:05.475-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:05 [DEBUG] GET https://akab-myd6o626s6luppsk-dymzggphhms3xd2v.luna.akamaiapis.net/papi/v1/properties/prp_1121420/versions/1/rules?accountSwitchKey=1-6JHGX%3A1-8BYUX&contractId=ctr_1-1NC95D&groupId=grp_241797&validateMode=full: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:07 [DEBUG] fetched property rules: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourcePropertyRead rules_format=v2023-05-30 contract_id=ctr_1-1NC95D property_version=1 validate_mode=full validate_rules=true property_id=prp_1121420 group_id=grp_241797
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:07 [ERROR] property has rule errors [
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 	{
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"behavior_name": "",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"detail": "The Origin Server Hostname option on the `Origin Server` behavior is required.",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"error_location": "#/rules/behaviors/0/options/hostname",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"instance": "",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"status_code": 0,
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"title": "",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"type": "https://problems.luna.akamaiapis.net/papi/v0/validation/attribute_required"
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 	},
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 	{
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"behavior_name": "",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"detail": "The behavior `Content Provider Code` has incorrectly formatted options and could not be recognized.",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"error_location": "#/rules/children/0/children/0/behaviors/0",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"instance": "",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"status_code": 0,
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"title": "",
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 		"type": "https://problems.luna.akamaiapis.net/papi/v0/validation/invalid_options_format"
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 	}
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: ]: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourcePropertyRead
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:07 [DEBUG] fetching property version: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourcePropertyRead property_name=prp_1121420 contract_id=ctr_1-1NC95D group_id=grp_241797 property_version=1
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:07 [DEBUG] GetPropertyVersion: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:07.490-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:07 [DEBUG] GET https://akab-myd6o626s6luppsk-dymzggphhms3xd2v.luna.akamaiapis.net/papi/v1/properties/prp_1121420/versions/1?accountSwitchKey=1-6JHGX%3A1-8BYUX&contractId=ctr_1-1NC95D&groupId=grp_241797: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:41:08.566-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:41:08 [DEBUG] property version fetched: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10 PAPI=resourcePropertyRead contract_id=ctr_1-1NC95D group_id=grp_241797 property_id=prp_1121420 product_id=prd_Fresca property_version=1 property_name=prp_1121420
+2024-12-13T14:42:04.079-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:42:04 [DEBUG] GetEdgeHostname: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:42:04.079-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:42:04 [DEBUG] GET https://akab-myd6o626s6luppsk-dymzggphhms3xd2v.luna.akamaiapis.net/hapi/v1/edge-hostnames/5777316?accountSwitchKey=1-6JHGX%3A1-8BYUX: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:42:04.679-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:42:04 [DEBUG] GetEdgeHostname: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:42:04.679-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:42:04 [DEBUG] GET https://akab-myd6o626s6luppsk-dymzggphhms3xd2v.luna.akamaiapis.net/hapi/v1/edge-hostnames/5777316?accountSwitchKey=1-6JHGX%3A1-8BYUX: OperationID=d8aa0a00-9518-4f06-99d8-7643cab37b10
+2024-12-13T14:42:04.901-0500 [WARN]  Provider "registry.terraform.io/akamai/akamai" produced an invalid plan for akamai_edge_hostname.terraform-test-ehn, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .use_cases: planned value cty.StringVal("") for a non-computed attribute
+2024-12-13T14:42:04.902-0500 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2024-12-13T14:42:04.923-0500 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe id=22544
+2024-12-13T14:42:04.923-0500 [DEBUG] provider: plugin exited
+2024-12-13T14:42:04.923-0500 [DEBUG] no planned changes, skipping apply graph check
+2024-12-13T14:42:04.923-0500 [INFO]  backend/local: plan operation completed
+2024-12-13T14:42:04.923-0500 [INFO]  backend/local: writing plan output to: plan
+2024-12-13T14:42:20.310-0500 [INFO]  Terraform version: 1.9.5
+2024-12-13T14:42:20.312-0500 [DEBUG] using github.com/hashicorp/go-tfe v1.58.0
+2024-12-13T14:42:20.312-0500 [DEBUG] using github.com/hashicorp/hcl/v2 v2.20.0
+2024-12-13T14:42:20.312-0500 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2024-12-13T14:42:20.312-0500 [DEBUG] using github.com/zclconf/go-cty v1.14.4
+2024-12-13T14:42:20.312-0500 [INFO]  Go runtime version: go1.22.5
+2024-12-13T14:42:20.312-0500 [INFO]  CLI args: []string{"C:\\windows\\system32\\terraform.exe", "apply", "plan"}
+2024-12-13T14:42:20.316-0500 [DEBUG] Attempting to open CLI config file: C:\Users\videsa\AppData\Roaming\terraform.rc
+2024-12-13T14:42:20.317-0500 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2024-12-13T14:42:20.321-0500 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2024-12-13T14:42:20.321-0500 [DEBUG] ignoring non-existing provider search directory C:\Users\videsa\AppData\Roaming\terraform.d\plugins
+2024-12-13T14:42:20.323-0500 [DEBUG] ignoring non-existing provider search directory C:\Users\videsa\AppData\Roaming\HashiCorp\Terraform\plugins
+2024-12-13T14:42:20.323-0500 [INFO]  CLI command args: []string{"apply", "plan"}
+2024-12-13T14:42:20.489-0500 [DEBUG] checking for provisioner in "."
+2024-12-13T14:42:20.491-0500 [DEBUG] checking for provisioner in "C:\\windows\\system32"
+2024-12-13T14:42:20.497-0500 [INFO]  backend/local: starting Apply operation
+2024-12-13T14:42:23.801-0500 [DEBUG] created provider logger: level=debug
+2024-12-13T14:42:23.801-0500 [INFO]  provider: configuring client automatic mTLS
+2024-12-13T14:42:23.896-0500 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe args=[".terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe"]
+2024-12-13T14:42:23.910-0500 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe pid=1040
+2024-12-13T14:42:23.910-0500 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe
+2024-12-13T14:42:24.029-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:42:24 [DEBUG] using activation timeout value of 30m0s: EXTRA_VALUE_AT_END=readTimeoutFromEnvOrDefault
+2024-12-13T14:42:24.029-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: 2024/12/13 02:42:24 [DEBUG] using activation timeout value of 30m0s: EXTRA_VALUE_AT_END=readTimeoutFromEnvOrDefault
+2024-12-13T14:42:24.031-0500 [INFO]  provider.terraform-provider-akamai_v6.6.0.exe: configuring server automatic mTLS: timestamp=2024-12-13T14:42:24.030-0500
+2024-12-13T14:42:24.129-0500 [DEBUG] provider.terraform-provider-akamai_v6.6.0.exe: plugin address: address=127.0.0.1:10000 network=tcp timestamp=2024-12-13T14:42:24.129-0500
+2024-12-13T14:42:24.140-0500 [DEBUG] provider: using plugin: version=6
+2024-12-13T14:42:24.518-0500 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2024-12-13T14:42:24.534-0500 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/akamai/akamai/6.6.0/windows_386/terraform-provider-akamai_v6.6.0.exe id=1040
+2024-12-13T14:42:24.534-0500 [DEBUG] provider: plugin exited
+2024-12-13T14:42:24.534-0500 [INFO]  backend/local: apply calling Apply
+2024-12-13T14:42:24.534-0500 [DEBUG] Building and walking apply graph for NormalMode plan
+2024-12-13T14:42:24.534-0500 [DEBUG] ProviderTransformer: "akamai_cp_code.terraform-test (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:42:24.534-0500 [DEBUG] ProviderTransformer: "akamai_edge_hostname.terraform-test-ehn (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:42:24.534-0500 [DEBUG] ProviderTransformer: "data.akamai_group.grp_241797 (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:42:24.534-0500 [DEBUG] ProviderTransformer: "akamai_property.videsa1 (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/akamai/akamai"]
+2024-12-13T14:42:24.535-0500 [DEBUG] ReferenceTransformer: "akamai_edge_hostname.terraform-test-ehn (expand)" references: [data.akamai_group.grp_241797 (expand) data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:42:24.535-0500 [DEBUG] ReferenceTransformer: "data.akamai_group.grp_241797 (expand)" references: []
+2024-12-13T14:42:24.535-0500 [DEBUG] ReferenceTransformer: "var.config_section" references: []
+2024-12-13T14:42:24.535-0500 [DEBUG] ReferenceTransformer: "local.notes (expand)" references: [data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:42:24.535-0500 [DEBUG] ReferenceTransformer: "output.videsa (expand)" references: [data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:42:24.535-0500 [DEBUG] ReferenceTransformer: "akamai_property.videsa1 (expand)" references: [data.akamai_group.grp_241797 (expand) data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:42:24.535-0500 [DEBUG] ReferenceTransformer: "akamai_cp_code.terraform-test (expand)" references: [data.akamai_group.grp_241797 (expand) data.akamai_group.grp_241797 (expand)]
+2024-12-13T14:42:24.535-0500 [DEBUG] ReferenceTransformer: "var.edgerc_path" references: []
+2024-12-13T14:42:24.535-0500 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/akamai/akamai\"]" references: [var.config_section var.edgerc_path]
+2024-12-13T14:42:24.535-0500 [DEBUG] pruneUnusedNodes: akamai_property.videsa1 (expand) is no longer needed, removing
+2024-12-13T14:42:24.535-0500 [DEBUG] pruneUnusedNodes: akamai_cp_code.terraform-test (expand) is no longer needed, removing
+2024-12-13T14:42:24.535-0500 [DEBUG] pruneUnusedNodes: akamai_edge_hostname.terraform-test-ehn (expand) is no longer needed, removing
+2024-12-13T14:42:24.535-0500 [DEBUG] pruneUnusedNodes: local.notes (expand) is no longer needed, removing
+2024-12-13T14:42:24.535-0500 [DEBUG] pruneUnusedNodes: data.akamai_group.grp_241797 (expand) is no longer needed, removing
+2024-12-13T14:42:24.535-0500 [DEBUG] pruneUnusedNodes: provider["registry.terraform.io/akamai/akamai"] is no longer needed, removing
+2024-12-13T14:42:24.535-0500 [DEBUG] Starting graph walk: walkApply
