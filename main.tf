@@ -14,6 +14,11 @@ resource "akamai_property" "videsa1" {
   group_id    = data.akamai_group.grp_241797.id
 }
 
+locals {
+  notes = "TF-3001/${data.akamai_group.grp_241797.id}"
+
+}
+
 #output "property id" {
 #    value = akamai_property.my_property.id
 #}
